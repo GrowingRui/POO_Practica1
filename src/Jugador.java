@@ -1,17 +1,15 @@
 public class Jugador {
     private String nombre;
     private double puntuacion;
+
     public Jugador(String nombre){
         this.nombre = nombre;
         puntuacion = 0;
     }
+
     public Jugador(String nombre,double puntacion){
         this.nombre = nombre;
         this.puntuacion = puntacion;
-    }
-
-    public double getPuntuacion() {
-        return puntuacion;
     }
 
     public String getNombre(){
@@ -20,6 +18,10 @@ public class Jugador {
 
     public void setNombre(String nombre){
         this.nombre = nombre;
+    }
+
+    public double getPuntuacion() {
+        return puntuacion;
     }
 
     public String toString() {
