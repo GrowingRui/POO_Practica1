@@ -37,7 +37,7 @@ public class Test {
         listaJugadores.insertarJugador(j5);
         int x;
         do {
-            x = leerNumero(sc);
+            x = menu(sc);
             switch (x){
                 case 1:
                     listaJugadores.altaJugador(sc);

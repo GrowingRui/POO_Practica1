@@ -22,32 +22,6 @@ public class Jugador {
         this.nombre = nombre;
     }
 
-    /*
-    public void altaJugador(Scanner sc){
-        System.out.print("Introduce el nombre del jugador: ");
-        String nombre = sc.next();
-        if (!listaJugadores.jugadorExistente(nombre)){
-            Jugador nuevo = new Jugador(nombre);
-            listaJugadores.insertarJugador(nuevo);
-            System.out.println("Jugador creado correctamente.");
-        }else {
-            System.out.println("Jugador con este nombre ya existe.");
-            System.out.println("No se puede crear jugadores existentes");
-        }
-    }
-     */
-
-    /*
-    public void bajaJugador(Scanner sc){
-        System.out.print("Introduce el nombre del jugador que quiere darse de baja: ");
-        String nombre = sc.next();
-        if (listaJugadores.jugadorExistente(nombre)){
-            listaJugadores.eliminarJugador(nombre);
-            System.out.println("Jugador borrado correctamente");
-        }
-    }
-     */
-
     public String toString() {
         return nombre;
     }
