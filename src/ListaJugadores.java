@@ -10,12 +10,6 @@ public class ListaJugadores {
         jugadores = new Jugador[MAX_JUGADORES];
     }
 
-    /*
-    public Jugador[] getJugadores() {
-        return jugadores;
-    }
-     */
-
     public int getNumJugadores() {
         return numJugadores;
     }
@@ -23,12 +17,6 @@ public class ListaJugadores {
     public Jugador getJugador(int posicion){
         return jugadores[posicion];
     }
-
-    /*
-     public boolean vacio(){
-        return numJugadores == 0;
-    }
-     */
 
     public int buscarPosicion(String nombre){
         int posicion = -1;
