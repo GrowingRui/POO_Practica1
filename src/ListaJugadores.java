@@ -82,8 +82,8 @@ public class ListaJugadores {
             double puntoMax = 0;
             int position = 0;
             for (int j = 0; j < size; j++){
-                if (puntoMax < aux.getJugador(j).getPuntacion()){
-                    puntoMax = aux.getJugador(j).getPuntacion();
+                if (puntoMax < aux.getJugador(j).getPuntuacion()){
+                    puntoMax = aux.getJugador(j).getPuntuacion();
                     position = j;
                 }
             }
